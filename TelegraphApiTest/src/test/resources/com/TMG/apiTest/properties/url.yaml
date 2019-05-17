@@ -1,6 +1,6 @@
 environmentList:
   - name: local
-    endpoints: https://petstore.swagger.io/v2/pet
+    endpoints: http://alb.api-platforms-preprod.telegraph.co.uk
 
   - name: ci6
     endpoints: http://editor.swagger.io/travel-places/v2
