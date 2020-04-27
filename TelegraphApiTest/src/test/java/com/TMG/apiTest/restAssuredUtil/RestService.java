@@ -37,6 +37,7 @@ public class RestService {
 
     public static Map<String, String> getHeaders(){
         Map<String, String> headers = new HashMap<String, String>();
+        headers.put("X-CMC_PRO_API_KEY","3266edfb-1d23-4aa5-ac98-727e7057dc34");
         headers.put("Content-Type","application/json");
         return headers;
     }
